@@ -1,1 +1,3 @@
-![](./test.png){width=15cm}
+![](./test.png){width=150}
+
+![](./test-2.jpg){width=150}

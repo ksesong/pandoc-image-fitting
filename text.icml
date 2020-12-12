@@ -46,7 +46,7 @@
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.03894 0 0 0.03894 5460 -2880">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.0103 0 0 0.0103 5460 -2880">
       <Properties>
         <PathGeometry>
           <GeometryPathType PathOpen="false">
@@ -59,13 +59,42 @@
           </GeometryPathType>
         </PathGeometry>
       </Properties>
-      <Image Self="ue6" ItemTransform="0.03894 0 0 0.03894 -5460 -2880">
+      <Image Self="ue6" ItemTransform="0.0103 0 0 0.0103 -5460 -2880">
         <Properties>
           <Profile type="string">
             $ID/Embedded
           </Profile>
+          <GraphicBounds Left="0" Top="0" Right="1059968" Bottom="559104" />
         </Properties>
         <Link Self="ueb" LinkResourceURI="file:./test.png" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="1.5625 0 0 1.5625 36 -36">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-36 -36" LeftDirection="-36 -36" RightDirection="-36 -36" />
+              <PathPointType Anchor="-36 36" LeftDirection="-36 36" RightDirection="-36 36" />
+              <PathPointType Anchor="36 36" LeftDirection="36 36" RightDirection="36 36" />
+              <PathPointType Anchor="36 -36" LeftDirection="36 -36" RightDirection="36 -36" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="1.5625 0 0 1.5625 -36 -36">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+          </Profile>
+          <GraphicBounds Left="0" Top="0" Right="46.08" Bottom="46.08" />
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="file:./test-2.jpg" />
       </Image>
     </Rectangle>
   </CharacterStyleRange>
