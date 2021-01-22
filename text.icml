@@ -102,27 +102,83 @@
 <Br />
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.11868 0 0 0.11868 473.96571 -355.47429">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.12054 0 0 0.12054 466.66286 -261.15429">
       <Properties>
         <PathGeometry>
           <GeometryPathType PathOpen="false">
             <PathPointArray>
-              <PathPointType Anchor="-473.96571 -355.47429" LeftDirection="-473.96571 -355.47429" RightDirection="-473.96571 -355.47429" />
-              <PathPointType Anchor="-473.96571 355.47429" LeftDirection="-473.96571 355.47429" RightDirection="-473.96571 355.47429" />
-              <PathPointType Anchor="473.96571 355.47429" LeftDirection="473.96571 355.47429" RightDirection="473.96571 355.47429" />
-              <PathPointType Anchor="473.96571 -355.47429" LeftDirection="473.96571 -355.47429" RightDirection="473.96571 -355.47429" />
+              <PathPointType Anchor="-466.66286 -261.15429" LeftDirection="-466.66286 -261.15429" RightDirection="-466.66286 -261.15429" />
+              <PathPointType Anchor="-466.66286 261.15429" LeftDirection="-466.66286 261.15429" RightDirection="-466.66286 261.15429" />
+              <PathPointType Anchor="466.66286 261.15429" LeftDirection="466.66286 261.15429" RightDirection="466.66286 261.15429" />
+              <PathPointType Anchor="466.66286 -261.15429" LeftDirection="466.66286 -261.15429" RightDirection="466.66286 -261.15429" />
             </PathPointArray>
           </GeometryPathType>
         </PathGeometry>
       </Properties>
-      <Image Self="ue6" ItemTransform="0.11868 0 0 0.11868 -473.96571 -355.47429">
+      <Image Self="ue6" ItemTransform="0.12054 0 0 0.12054 -466.66286 -261.15429">
         <Properties>
           <Profile type="string">
             $ID/Embedded
           </Profile>
-          <GraphicBounds Left="0" Top="0" Right="7987.32438" Bottom="5990.49329" />
+          <GraphicBounds Left="0" Top="0" Right="7743.08346" Bottom="4333.19129" />
         </Properties>
         <Link Self="ueb" LinkResourceURI="file:./test-3.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.12054 0 0 0.12054 466.66286 -261.15429">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-466.66286 -261.15429" LeftDirection="-466.66286 -261.15429" RightDirection="-466.66286 -261.15429" />
+              <PathPointType Anchor="-466.66286 261.15429" LeftDirection="-466.66286 261.15429" RightDirection="-466.66286 261.15429" />
+              <PathPointType Anchor="466.66286 261.15429" LeftDirection="466.66286 261.15429" RightDirection="466.66286 261.15429" />
+              <PathPointType Anchor="466.66286 -261.15429" LeftDirection="466.66286 -261.15429" RightDirection="466.66286 -261.15429" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="0.12054 0 0 0.12054 -466.66286 -261.15429">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+          </Profile>
+          <GraphicBounds Left="0" Top="0" Right="7743.08346" Bottom="4333.19129" />
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="file:./test-4.jpg" />
+      </Image>
+    </Rectangle>
+  </CharacterStyleRange>
+</ParagraphStyleRange>
+<Br />
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
+  <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
+    <Rectangle Self="uec" StrokeWeight="0" ItemTransform="0.375 0 0 0.375 150 -100">
+      <Properties>
+        <PathGeometry>
+          <GeometryPathType PathOpen="false">
+            <PathPointArray>
+              <PathPointType Anchor="-150 -100" LeftDirection="-150 -100" RightDirection="-150 -100" />
+              <PathPointType Anchor="-150 100" LeftDirection="-150 100" RightDirection="-150 100" />
+              <PathPointType Anchor="150 100" LeftDirection="150 100" RightDirection="150 100" />
+              <PathPointType Anchor="150 -100" LeftDirection="150 -100" RightDirection="150 -100" />
+            </PathPointArray>
+          </GeometryPathType>
+        </PathGeometry>
+      </Properties>
+      <Image Self="ue6" ItemTransform="0.375 0 0 0.375 -150 -100">
+        <Properties>
+          <Profile type="string">
+            $ID/Embedded
+          </Profile>
+          <GraphicBounds Left="0" Top="0" Right="800" Bottom="533.33333" />
+        </Properties>
+        <Link Self="ueb" LinkResourceURI="file:./test-5.svg" />
       </Image>
     </Rectangle>
   </CharacterStyleRange>
